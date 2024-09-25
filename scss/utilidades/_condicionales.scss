@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 1.8rem; // Cambiar tamaño de fuente
+    }
+
+    .navBar {
+        flex-direction: column; // Cambiar dirección a columna
+        gap: 15px; // Espaciado entre elementos
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.6rem; // Cambiar tamaño de fuente
+    }
+
+    .navBar {
+        gap: 10px; // Espaciado entre elementos
+    }
+
+    .image-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); // Ajustar columnas para imágenes
+    }
+}
+
+// Opcional: media query para pantallas más pequeñas
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.4rem; // Reducir tamaño de fuente aún más
+    }
+
+    .navBar {
+        gap: 5px; // Espaciado adicional
+    }
+}
+

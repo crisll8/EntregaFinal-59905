@@ -1,0 +1,10 @@
+$themes: (
+    light: #FFFAB7,
+    dark: #333,
+    primary: firebrick
+);
+
+body {
+    background-color: map-get($themes, light);
+    color: map-get($themes, dark);
+}

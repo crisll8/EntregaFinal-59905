@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn, button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navBar li {
+  list-style: none;
+}
+.navBar li a {
+  text-decoration: none;
+  color: firebrick;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.navBar li a:hover {
+  color: darkred;
+}
+
+body {
+  background-color: #FFFAB7;
+  color: #333;
+}
+
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  .navBar {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+  .navBar {
+    gap: 10px;
+  }
+  .image-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+  .navBar {
+    gap: 5px;
+  }
+}
+button {
+  background-color: firebrick;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: rgb(135.179245283, 25.820754717, 25.820754717);
+}
+
+button {
+  background-color: firebrick;
+  color: white;
+}
+button:hover {
+  background-color: darkred;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFAB7;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  height: auto;
+}
+
+main {
+  background-color: #D1BB9E;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #FFFAB7;
+  padding: 20px 0;
+  text-align: center;
+}
+footer a img {
+  margin: 10px;
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+footer a img:hover {
+  transform: scale(1.1);
+}
+footer p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.image-container li {
+  flex: 1 0 250px;
+  list-style: none;
+  text-align: center;
+}
+
+.image-container img {
+  width: 70%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
