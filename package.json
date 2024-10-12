@@ -1,0 +1,14 @@
+{
+    "name": "mi-proyecto-html",
+    "version": "1.0.0",
+    "description": "Proyecto HTML estático",
+    "main": "index.html",
+    "scripts": {
+      "start": "http-server .",
+      "build": "echo 'No build needed'"
+    },
+    "dependencies": {
+      "http-server": "^0.12.3" 
+    }
+  }
+  
