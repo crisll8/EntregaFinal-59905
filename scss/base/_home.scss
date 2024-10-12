@@ -1,10 +1,8 @@
-// En tu archivo home.scss (o donde apliques los estilos)
-
 button {
-    @include button-style(firebrick, white);  // Llamada al mixin con parámetros
+    @include button-style(firebrick, white);  
 }
 
-// en home.scss o donde corresponda
+
 button {
     @extend .btn;
     background-color: firebrick;
@@ -65,29 +63,27 @@ footer {
         font-size: 1rem;
     }
 }
-// En home.scss o tienda.scss
-
-// En tienda.scss
 
 .image-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
-    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .image-container li {
-    flex: 1 0 250px; // Ajusta según lo que necesites
+    flex: 1 0 23%;
     list-style: none;
     text-align: center;
 }
 
 .image-container img {
-    width: 70%;
-    height: 250px; // Ajusta la altura como desees
+    width: 100%;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
-
 

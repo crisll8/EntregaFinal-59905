@@ -1,8 +1,8 @@
-@import 'base/reset';          // Reseteo de estilos generales
-@import 'utilidades/variables'; // Definiciones de variables
-@import 'utilidades/mixin';     // Mixins que se usarán en otras partes
-@import 'utilidades/extend';    // Estilos extendidos (si es necesario)
-@import 'utilidades/listas';     // Estilos para listas (si es necesario)
-@import 'utilidades/mapas';      // Estilos para mapas (si es necesario)
-@import 'utilidades/condicionales'; // Media queries u otros condicionales
-@import 'base/home';            // Estilos de la página principal y footer
+@import 'base/reset';         
+@import 'utilidades/variables'; 
+@import 'utilidades/mixin';     
+@import 'utilidades/extend';    
+@import 'utilidades/listas';     
+@import 'utilidades/mapas';      
+@import 'utilidades/condicionales'; 
+@import 'base/home';            
